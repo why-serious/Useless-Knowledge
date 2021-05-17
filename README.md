@@ -15,13 +15,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 Useles-Knowledge is a collection of items which is well known in software engineering which we always just need to use but not undertand.
 
-
-
-
-
 ## Linux
 
-### Linux application
+### Linux Application
 
 - [systemd](https://en.wikipedia.org/wiki/Systemd) -  a [software suite](https://en.wikipedia.org/wiki/Software_suite) that provides an array of system components for [Linux](https://en.wikipedia.org/wiki/Linux) operating systems.
 
@@ -29,6 +25,14 @@ Useles-Knowledge is a collection of items which is well known in software engine
 
 - [socket options O_REUSEPORT O_REUSEADDR](https://man7.org/linux/man-pages/man7/socket.7.html) - affect the communication behavior
   - [**Linux TCP SO_REUSEPORT — Usage and implementation**](https://tech.flipkart.com/linux-tcp-so-reuseport-usage-and-implementation-6bfbf642885a)
+- [BPF](https://en.wikipedia.org/wiki/Berkeley_Packet_Filter) - is a technology used in certain computer operating systems for programs that need to, among other things, analyze network traffic (and **eBPF** is an extended BPF [JIT](https://en.wikipedia.org/wiki/Just-in-time_compilation) [virtual machine](https://en.wikipedia.org/wiki/Virtual_machine) in the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel))
+- [BPF sockmap] - Cilium uses SOCKMAP for Layer 7 policy enforcement, and all the logic it uses is embedded in an eBPF program.
+  - [Introduction](https://cilium.io/blog/2018/04/24/cilium-security-for-age-of-microservices)
+  - [Compare with `splice` ,`read + write`, `linux aio`](https://blog.cloudflare.com/sockmap-tcp-splicing-of-the-future/)
+  - [利用 ebpf sockmap/redirection 提升 socket 性能（2020）](http://arthurchiao.art/blog/socket-acceleration-with-ebpf-zh/)
+- [DPDK](https://en.wikipedia.org/wiki/Data_Plane_Development_Kit) - is an [open source](https://en.wikipedia.org/wiki/Open_source) software project managed by the [Linux Foundation](https://en.wikipedia.org/wiki/Linux_Foundation).
+  - [Doc](https://doc.dpdk.org/guides/prog_guide/overview.html)
+  - [Introduction](https://blog.selectel.com/introduction-dpdk-architecture-principles/)
 
 ## Web
 
@@ -62,3 +66,4 @@ $ make fix-md
 ```
 
 to fix the Markdown format.
+
