@@ -1,15 +1,5 @@
-Table of Contents
-=================
-
-* [Useless-Knowledge](#useless-knowledge)
-  * [Linux](#linux)
-    * [Linux application](#linux-application)
-    * [Linux Network Programing](#linux-network-programing)
-  * [Web](#web)
-  * [Security](#security)
-  * [Contributing](#contributing)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc) 
+<!-- START doctoc -->
+<!-- END doctoc -->
 
 # Useless-Knowledge
 
